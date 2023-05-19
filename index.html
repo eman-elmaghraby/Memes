@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/styleSheet.css" />
+    <title>MEMES</title>
+  </head>
+  <body>
+    <div class="container p-3">
+      <form
+        onsubmit="return validationForm()"
+        class="d-flex flex-column align-items-center form1"
+      >
+        <label class="mb-3 text-danger fw-bold text-decoration-underline"
+          >Enter Number from 0 to 99</label
+        >
+        <input type="text" class="input text-warning" />
+        <button
+          type="submit"
+          class="button mb-3 mt-3 text-warning fw-bold btn btn-danger"
+        >
+          Show Meme
+        </button>
+        <div class="d-flex flex-column align-items-center">
+          <h1 class="mb-3"></h1>
+          <div class="imageMeme"></div>
+        </div>
+      </form>
+    </div>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/java.js"></script>
+  </body>
+</html>

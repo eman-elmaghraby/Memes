@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: rgb(66, 65, 65);
+}
+
+input {
+  background-color: rgb(212, 58, 58);
+}
+.red {
+  color: rgb(212, 58, 58);
+}
+.yellow {
+  color: yellow;
+}
+.imageMeme {
+  width: 50%;
+}
